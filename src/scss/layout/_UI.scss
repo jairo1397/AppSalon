@@ -1,0 +1,30 @@
+.contenedor-estetica {
+    height: 100vh;
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+    .imagen {
+        height: 50%;
+        @include tablet {
+            height: 100%;
+        }
+        width: 100%;
+        background-image: url(../../../build/img/1.webp);
+        background-position: center center;
+        background-size: cover;
+    }
+    .app {
+        padding-top: 1rem;
+        margin: 1rem 1rem;
+        .seccion {
+            display: none;
+            .text-center {
+                color: $blanco;
+            }
+        }
+    }
+}
+
+.mostrar-seccion {
+    display: block!important;
+}

@@ -1,0 +1,28 @@
+.invalidar-cita {
+    text-align: center;
+    color: $blanco;
+}
+
+.contenido-resumen {
+    h3 {
+        color: $azul;
+        text-align: center;
+    }
+    p {
+        color: $blanco;
+        span {
+            color: $azul;
+        }
+    }
+}
+
+.resumen-servicios {
+    padding-top: 1rem;
+    .contenedor-servicio {
+        margin-bottom: 2rem;
+        border-bottom: 2px $blanco solid;
+        .precio {
+            color: $azul;
+        }
+    }
+}

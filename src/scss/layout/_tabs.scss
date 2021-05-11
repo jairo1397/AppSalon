@@ -1,0 +1,16 @@
+.tabs {
+    @include grid(3, 1rem);
+    button {
+        cursor: pointer;
+        height: 3rem;
+        background-color: $azul;
+        border: none;
+        font-size: 1rem;
+        &.actual {
+            background-color: $coral;
+        }
+        &:hover {
+            background-color: $coral;
+        }
+    }
+}
